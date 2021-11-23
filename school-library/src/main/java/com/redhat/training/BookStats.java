@@ -8,7 +8,9 @@ public class BookStats {
         if (book.text.isEmpty()) {
             return 0;
         }
-
+	else
+	{
         return book.text.split("\\s+").length;
+}
     }
 }
